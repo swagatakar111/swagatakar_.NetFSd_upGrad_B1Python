@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile EduPath</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="courses.html">Courses</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="profile.html">Profile</a>
+    <a href="#" onclick="logout()">Logout</a>
+  </nav>
+</header>
+
+<p class="breadcrumb">Home &gt; Profile</p>
+
+<main class="profile-wrapper">
+
+  <section>
+    <div class="profile-card">
+      <div class="profile-banner"></div>
+      <div class="profile-top">
+        <div class="avatar-circle" id="avatarLetter">?</div>
+        <div class="profile-name-area">
+          <h2 id="profileName">Loading...</h2>
+          <p>Student · EduPath Learner</p>
+        </div>
+      </div>
+      <div class="stats-row">
+        <div class="stat-box">
+          <div class="stat-num" id="statEnrolled">0</div>
+          <div class="stat-label">Enrolled</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num" id="statCompleted">0</div>
+          <div class="stat-label">Completed</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num" id="statQuizzes">0</div>
+          <div class="stat-label">Quizzes Done</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="profile-grid">
+
+      <div class="info-card">
+        <h4>👤 Personal Info</h4>
+        <div class="info-row">
+          <div class="info-icon">🙍</div>
+          <div>
+            <p class="info-label">Full Name</p>
+            <div class="info-value" id="infoFullName">-</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">📧</div>
+          <div>
+            <p class="info-label">Email</p>
+            <div class="info-value" id="infoEmail">-</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">📅</div>
+          <div>
+            <p class="info-label">Member Since</p>
+            <div class="info-value" id="infoCreatedAt">-</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <h4>📊 Quiz Performance</h4>
+        <div id="quizPerformance">
+          <p class="no-completed">No quizzes attempted yet.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="completed-card">
+      <h4>✅ Completed Courses</h4>
+      <ul id="completedCourses"></ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>2026 EduPath. All rights reserved. | 
+    <a href="dashboard.html">Dashboard</a> | 
+    <a href="courses.html">Courses</a> | 
+    <a href="quiz.html">Quiz</a> | 
+    <a href="profile.html">Profile</a>
+  </p>
+</footer>
+
+<script src="js/api.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/auth.js"></script>   
+<script src="js/app.js"></script>
+
+</body>
+</html>
