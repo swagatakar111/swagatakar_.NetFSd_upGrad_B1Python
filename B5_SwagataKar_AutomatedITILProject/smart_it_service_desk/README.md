@@ -109,5 +109,5 @@ See the screenshots/ folder for full walkthrough.
 
 ## Author
 
-Swagata Das
+Swagata Kar
 Electronics & Communication Engineering Graduate 2025
