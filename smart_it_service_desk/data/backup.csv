@@ -1,0 +1,5 @@
+ticket_id,employee_name,department,issue_description,category,priority,status,created_at,resolved_at,sla_breached
+TKT-B88BEC,Swagata,IT,server down,Incident,P1,Open,2026-04-29T10:23:04.360546,,True
+TKT-2B2EC5,Rahul,HR,internet disconnected,Incident,P2,In Progress,2026-04-29T10:23:56.805956,,False
+TKT-98BB22,Priya,Finance,laptop running slow,Service Request,P3,Open,2026-04-29T10:24:29.997935,,False
+TKT-AA0A65,Amit,Admin,password reset,Service Request,P4,Open,2026-04-29T10:24:57.735492,,False
